@@ -6,3 +6,8 @@ up 2
 down 1
 up 1
 forward 2
+forward 2
+down 1
+down 2
+up 2
+down 1
