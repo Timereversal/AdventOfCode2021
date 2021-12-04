@@ -26,7 +26,6 @@ type movement struct {
 // }
 type submarine struct {
 	horizontal, depth int
-	textgit string
 }
 
 func totalMovement(txtFile *os.File) (int, int) {
