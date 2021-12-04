@@ -24,6 +24,8 @@ type movement struct {
 // 		p.y + dir
 // 	}
 // }
+type submarine struct {
+}
 
 func totalMovement(txtFile *os.File) (int, int) {
 
