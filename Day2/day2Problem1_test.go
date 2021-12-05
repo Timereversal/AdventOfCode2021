@@ -14,7 +14,7 @@ func TestTotalMovement(t *testing.T) {
 		t.Fatal(err)
 	}
 	x, y := totalMovement(f)
-	result_x, result_y := 4, 0
+	result_x, result_y := 1967, 1031
 	if x != result_x || y != result_y {
 		t.Errorf("position  should be %d %d  got %d %d", result_x, result_y, x, y)
 	}

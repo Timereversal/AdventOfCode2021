@@ -41,7 +41,7 @@ func totalMovement(txtFile *os.File) (int, int) {
 			fmt.Printf("parsing direction number generate error %v", err)
 
 		}
-		fmt.Println(direction[0])
+		// fmt.Println(direction[0])
 		move[direction[0]] = move[direction[0]] + num*dir[direction[0]]
 	}
 	return move["forward"], move["down"] + move["up"]
